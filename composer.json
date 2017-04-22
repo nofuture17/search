@@ -1,0 +1,14 @@
+{
+    "name": "nofuture17/search",
+    "description": "search component based on Zend_Search_Lucene",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nofuture17",
+            "email": "ar2041@bk.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
