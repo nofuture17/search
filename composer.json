@@ -10,5 +10,66 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "duncan3dc/php-helpers",
+                "version":"1.7.2",
+                "source": {
+                    "url": "https://github.com/nofuture17/php-helpers.git",
+                    "type": "git",
+                    "reference":"1.7.2"
+                }
+            }
+        },
+        {
+            "type":"package",
+            "package": {
+                "name": "duncan3dc/serial",
+                "version":"1.0.0",
+                "source": {
+                    "url": "https://github.com/nofuture17/serial.git",
+                    "type": "git",
+                    "reference":"1.0.0"
+                }
+            }
+        },
+        {
+            "type":"package",
+            "package": {
+                "name": "umisoft/phpmorphy",
+                "version":"1.0.1",
+                "source": {
+                    "url": "https://github.com/nofuture17/phpmorphy.git",
+                    "type": "git",
+                    "reference":"1.0.1"
+                }
+            }
+        },
+        {
+            "type":"package",
+            "package": {
+                "name": "nofuture17/helpers",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/nofuture17/phpmorphy.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "zf1/zend-search-lucene": "~1.12",
+        "umisoft/phpmorphy": "1.0.1",
+        "duncan3dc/serial": "1.0.0",
+        "duncan3dc/php-helpers": "1.7.2",
+        "nofuture17/helpers": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "nofuture17\\search\\": "src"
+        }
+    }
 }
